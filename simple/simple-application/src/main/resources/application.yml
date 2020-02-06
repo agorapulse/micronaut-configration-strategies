@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: simple-application
+---
+simple:
+  one:
+    foo: CHANGED_FOO_1
+    bar: BAR_1
+---
+simple:
+  two:
+    bar: BAR_2
