@@ -11,8 +11,16 @@ public class SimpleConfigurationTwo {
         return foo;
     }
 
+    public void setFoo(String foo) {
+        this.foo = foo;
+    }
+
     public String getBar() {
         return bar;
+    }
+
+    public void setBar(String bar) {
+        this.bar = bar;
     }
 
     @NotBlank
