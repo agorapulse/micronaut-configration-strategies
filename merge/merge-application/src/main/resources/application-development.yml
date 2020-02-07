@@ -1,0 +1,11 @@
+---
+micronaut:
+  application:
+    name: sources-application
+merge:
+  one:
+    foo: CHANGED_FOO_1
+  two:
+    bar: CHANGED_BAR_2
+---
+

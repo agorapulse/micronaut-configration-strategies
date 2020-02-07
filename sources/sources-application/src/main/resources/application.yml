@@ -1,0 +1,6 @@
+micronaut:
+  application:
+    name: sources-application
+sources:
+  one:
+    foo: CHANGED_FOO_1

@@ -32,7 +32,7 @@ buildscript {
 apply plugin: 'org.kordamp.gradle.settings'
 
 projects {
-    directories = ['simple', 'sources', 'merge', 'docs']
+    directories = ['simple', 'sources', 'merge']
 }
 
 rootProject.name = 'micronaut-configuration-strategies-root'

@@ -1,0 +1,6 @@
+---
+merge:
+  one:
+    foo: DEFAULT_FOO_1
+    bar: DEFAULT_BAR_1
+---
