@@ -18,11 +18,14 @@ public interface PropertySourceConfigurationOne {
     /**
      * Not used in runtime.
      *
-     * This is a signal property which verifies the defaults has been set properly.
+     * This is a signal property which verifies
+     * that the defaults has been set properly.
      *
      * <code>
      * Micronaut.build(args)
-     *     .propertySources(PropertySourceConfigurationOne.defaults())
+     *     .propertySources(
+     *         PropertySourceConfigurationOne.defaults()
+     *     )
      *     .classes(Application.class)
      *     .start();
      * </code>
@@ -37,7 +40,11 @@ public interface PropertySourceConfigurationOne {
             "sources.one.bar", "DEFAULT_BAR",
             "sources.one.cafebabe", "cafebabe"
         );
-        return PropertySource.of("property-source-one", defaults, -10000);
+        return PropertySource.of(
+            "property-source-one",
+            defaults,
+            -10000
+        );
     }
 
 }

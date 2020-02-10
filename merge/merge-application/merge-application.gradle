@@ -46,6 +46,7 @@ tasks.withType(JavaCompile){
 
 shadowJar {
     mergeServiceFiles()
+    // append application.yml files from the libraries
     append 'application.yml'
 }
 
